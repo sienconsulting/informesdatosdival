@@ -1,0 +1,402 @@
+{
+  "total_turistas_2025": 7098741,
+  "total_turistas_2024": 7896570,
+  "chg_total": -10.103487970093344,
+  "total_receptor_2025": 3605939,
+  "total_receptor_2024": 3172865,
+  "chg_receptor": 13.649304335356216,
+  "total_interno_2025": 3492802,
+  "total_interno_2024": 4723705,
+  "chg_interno": -26.057998964795644,
+  "historico_receptor": {
+    "2019": 1176757,
+    "2020": 1073481,
+    "2021": 1264586,
+    "2022": 2017370,
+    "2023": 2600825,
+    "2024": 3172865,
+    "2025": 3605939
+  },
+  "historico_interno": {
+    "2019": 2288081,
+    "2020": 2684325,
+    "2021": 3388935,
+    "2022": 3834256,
+    "2023": 4741685,
+    "2024": 4723705,
+    "2025": 3492802
+  },
+  "pernoctaciones_2025": 17491480,
+  "pernoctaciones_2024": 17673938,
+  "chg_pernoctaciones": -1.0323562298340077,
+  "viajeros_2025": 7378071,
+  "viajeros_2024": 7330681,
+  "receptor_mensual_2025": {
+    "1": 214290,
+    "2": 220274,
+    "3": 281206,
+    "4": 307076,
+    "5": 323234,
+    "6": 315016,
+    "7": 351614,
+    "8": 377230,
+    "9": 317358,
+    "10": 341696,
+    "11": 291298,
+    "12": 265647
+  },
+  "receptor_mensual_2024": {
+    "1": 200075,
+    "2": 190711,
+    "3": 250898,
+    "4": 272377,
+    "5": 296730,
+    "6": 279172,
+    "7": 317608,
+    "8": 344006,
+    "9": 293787,
+    "10": 307293,
+    "11": 203077,
+    "12": 217131
+  },
+  "interno_mensual_2025": {
+    "1": 275404,
+    "2": 263556,
+    "3": 322211,
+    "4": 277201,
+    "5": 282788,
+    "6": 340611,
+    "7": 346390,
+    "8": 351352,
+    "9": 279823,
+    "10": 266456,
+    "11": 266673,
+    "12": 220337
+  },
+  "interno_mensual_2024": {
+    "1": 327852,
+    "2": 321955,
+    "3": 495722,
+    "4": 372838,
+    "5": 338580,
+    "6": 366016,
+    "7": 551974,
+    "8": 539361,
+    "9": 427165,
+    "10": 364368,
+    "11": 306051,
+    "12": 311823
+  },
+  "pernoctaciones_mensual_2025": {
+    "1": 899825,
+    "2": 1016560,
+    "3": 1324094,
+    "4": 1527930,
+    "5": 1626156,
+    "6": 1702258,
+    "7": 1872368,
+    "8": 2079928,
+    "9": 1712846,
+    "10": 1497340,
+    "11": 1225952,
+    "12": 1006223
+  },
+  "top5_paises_2025": [
+    {
+      "pais": "Francia",
+      "turistas": 444971,
+      "chg": 6.508959303745051
+    },
+    {
+      "pais": "Italia",
+      "turistas": 371921,
+      "chg": 24.900008395600707
+    },
+    {
+      "pais": "Reino Unido",
+      "turistas": 353207,
+      "chg": 8.8814288708862
+    },
+    {
+      "pais": "Países Bajos",
+      "turistas": 319749,
+      "chg": 7.738676873934402
+    },
+    {
+      "pais": "Alemania",
+      "turistas": 293500,
+      "chg": 6.036684718795048
+    }
+  ],
+  "top5_origenes_nacionales_2025": [
+    {
+      "origen": "Madrid",
+      "turistas": 1052141,
+      "chg": -24.59040950090845
+    },
+    {
+      "origen": "Alicante/Alacant",
+      "turistas": 663943,
+      "chg": -24.087745635528155
+    },
+    {
+      "origen": "Castellón/Castelló",
+      "turistas": 380630,
+      "chg": -29.861189170064918
+    },
+    {
+      "origen": "Barcelona",
+      "turistas": 250606,
+      "chg": -31.0442175934843
+    },
+    {
+      "origen": "Murcia",
+      "turistas": 162746,
+      "chg": -12.478152611737627
+    }
+  ],
+  "turistas_por_comarca_2025": {
+    "València": {
+      "receptor": 1992628,
+      "interno": 1813587,
+      "total": 3806215
+    },
+    "L'Horta Sud": {
+      "receptor": 331859,
+      "interno": 189909,
+      "total": 521768
+    },
+    "L'Horta Nord": {
+      "receptor": 260130,
+      "interno": 200329,
+      "total": 460459
+    },
+    "La Safor": {
+      "receptor": 250256,
+      "interno": 577950,
+      "total": 828206
+    },
+    "El Camp de Túria": {
+      "receptor": 155356,
+      "interno": 76258,
+      "total": 231614
+    },
+    "La Ribera Alta": {
+      "receptor": 142495,
+      "interno": 44415,
+      "total": 186910
+    },
+    "El Camp de Morvedre": {
+      "receptor": 130547,
+      "interno": 212525,
+      "total": 343072
+    },
+    "La Ribera Baixa": {
+      "receptor": 89310,
+      "interno": 155731,
+      "total": 245041
+    },
+    "La Hoya de Buñol": {
+      "receptor": 70509,
+      "interno": 31275,
+      "total": 101784
+    },
+    "La Costera": {
+      "receptor": 54783,
+      "interno": 37707,
+      "total": 92490
+    },
+    "La Vall d'Albaida": {
+      "receptor": 54596,
+      "interno": 54659,
+      "total": 109255
+    },
+    "La Plana de Utiel-Requena": {
+      "receptor": 29952,
+      "interno": 48776,
+      "total": 78728
+    },
+    "Los Serranos": {
+      "receptor": 16485,
+      "interno": 2866,
+      "total": 19351
+    },
+    "La Canal de Navarrés": {
+      "receptor": 13955,
+      "interno": 9873,
+      "total": 23828
+    },
+    "El Valle de Cofrentes-Ayora": {
+      "receptor": 10486,
+      "interno": 26891,
+      "total": 37377
+    },
+    "El Rincón de Ademuz": {
+      "receptor": 2592,
+      "interno": 10051,
+      "total": 12643
+    }
+  },
+  "ocupacion_hoteles_2025_avg": 58.5,
+  "ocupacion_hoteles_2024_avg": 60.4,
+  "chg_ocupacion": -3.149964816424538,
+  "ocupacion_hoteles_mensual_2025": {
+    "1": 43.3,
+    "2": 51.4,
+    "3": 52.7,
+    "4": 60.3,
+    "5": 60.9,
+    "6": 64.8,
+    "7": 68.8,
+    "8": 75.2,
+    "9": 65.6,
+    "10": 59.5,
+    "11": 52.9,
+    "12": 46.5
+  },
+  "hoteles_total": 565,
+  "hoteles_habitaciones": 24503,
+  "hoteles_plazas": 47036,
+  "hoteles_por_categoria": {
+    "PENSIÓN": {
+      "establecimientos": 105,
+      "plazas": 2131
+    },
+    "2 ESTRELLAS": {
+      "establecimientos": 104,
+      "plazas": 6446
+    },
+    "3 ESTRELLAS": {
+      "establecimientos": 95,
+      "plazas": 11271
+    },
+    "1 ESTRELLA": {
+      "establecimientos": 87,
+      "plazas": 3948
+    },
+    "4 ESTRELLAS": {
+      "establecimientos": 87,
+      "plazas": 19652
+    },
+    " ": {
+      "establecimientos": 77,
+      "plazas": 1449
+    },
+    "5 ESTRELLAS": {
+      "establecimientos": 10,
+      "plazas": 2139
+    }
+  },
+  "hoteles_por_comarca": {
+    "VALENCIA": {
+      "establecimientos": 270,
+      "habitaciones": 12293,
+      "plazas": 23789
+    },
+    "LA SAFOR": {
+      "establecimientos": 50,
+      "habitaciones": 3612,
+      "plazas": 7366
+    },
+    "L'HORTA OEST": {
+      "establecimientos": 31,
+      "habitaciones": 1862,
+      "plazas": 3712
+    },
+    "LA RIBERA BAIXA": {
+      "establecimientos": 30,
+      "habitaciones": 1071,
+      "plazas": 2076
+    },
+    "L'HORTA NORD": {
+      "establecimientos": 25,
+      "habitaciones": 1981,
+      "plazas": 2970
+    },
+    "LA PLANA DE UTIEL-REQUENA": {
+      "establecimientos": 24,
+      "habitaciones": 360,
+      "plazas": 686
+    },
+    "EL CAMP DE TURIA": {
+      "establecimientos": 22,
+      "habitaciones": 343,
+      "plazas": 628
+    },
+    "LA RIBERA ALTA": {
+      "establecimientos": 18,
+      "habitaciones": 345,
+      "plazas": 617
+    },
+    "EL CAMP DE MORVEDRE": {
+      "establecimientos": 15,
+      "habitaciones": 601,
+      "plazas": 1206
+    },
+    "L'HORTA SUD": {
+      "establecimientos": 15,
+      "habitaciones": 747,
+      "plazas": 1491
+    },
+    "LA HOYA DE BUÑOL": {
+      "establecimientos": 14,
+      "habitaciones": 313,
+      "plazas": 573
+    },
+    "LA VALL D'ALBAIDA": {
+      "establecimientos": 14,
+      "habitaciones": 202,
+      "plazas": 400
+    },
+    "LA COSTERA": {
+      "establecimientos": 12,
+      "habitaciones": 165,
+      "plazas": 307
+    },
+    "EL VALLE DE COFRENTES-AYORA": {
+      "establecimientos": 8,
+      "habitaciones": 405,
+      "plazas": 817
+    },
+    "LOS SERRANOS": {
+      "establecimientos": 8,
+      "habitaciones": 99,
+      "plazas": 188
+    },
+    "LA CANAL DE NAVARRÉS": {
+      "establecimientos": 5,
+      "habitaciones": 39,
+      "plazas": 83
+    },
+    "EL RINCON DE ADEMUZ": {
+      "establecimientos": 4,
+      "habitaciones": 65,
+      "plazas": 127
+    }
+  },
+  "vut_total": 7949,
+  "vut_plazas": 38463,
+  "afiliados_ss": {
+    "2025-01-01": {
+      "Alojamiento": 8314,
+      "Servicios de comidas y bebidas": 79868,
+      "Agencias de viaje": 2797
+    },
+    "2025-04-01": {
+      "Alojamiento": 9901,
+      "Servicios de comidas y bebidas": 82822,
+      "Agencias de viaje": 2891
+    },
+    "2025-07-01": {
+      "Alojamiento": 10474,
+      "Servicios de comidas y bebidas": 80652,
+      "Agencias de viaje": 2840
+    },
+    "2025-10-01": {
+      "Alojamiento": 8406,
+      "Servicios de comidas y bebidas": 79769,
+      "Agencias de viaje": 2779
+    }
+  },
+  "estancia_media_total": 2.24
+}
