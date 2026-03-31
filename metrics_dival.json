@@ -26,11 +26,6 @@
     "2024": 4723705,
     "2025": 3492802
   },
-  "pernoctaciones_2025": 17491480,
-  "pernoctaciones_2024": 17673938,
-  "chg_pernoctaciones": -1.0323562298340077,
-  "viajeros_2025": 7378071,
-  "viajeros_2024": 7330681,
   "receptor_mensual_2025": {
     "1": 214290,
     "2": 220274,
@@ -87,20 +82,6 @@
     "11": 306051,
     "12": 311823
   },
-  "pernoctaciones_mensual_2025": {
-    "1": 899825,
-    "2": 1016560,
-    "3": 1324094,
-    "4": 1527930,
-    "5": 1626156,
-    "6": 1702258,
-    "7": 1872368,
-    "8": 2079928,
-    "9": 1712846,
-    "10": 1497340,
-    "11": 1225952,
-    "12": 1006223
-  },
   "top5_paises_2025": [
     {
       "pais": "Francia",
@@ -126,6 +107,58 @@
       "pais": "Alemania",
       "turistas": 293500,
       "chg": 6.036684718795048
+    }
+  ],
+  "top10_paises_2025": [
+    {
+      "pais": "Francia",
+      "turistas": 444971,
+      "chg": 6.5
+    },
+    {
+      "pais": "Italia",
+      "turistas": 371921,
+      "chg": 24.9
+    },
+    {
+      "pais": "Reino Unido",
+      "turistas": 353207,
+      "chg": 8.9
+    },
+    {
+      "pais": "Países Bajos",
+      "turistas": 319749,
+      "chg": 7.7
+    },
+    {
+      "pais": "Alemania",
+      "turistas": 293500,
+      "chg": 6.0
+    },
+    {
+      "pais": "Suiza",
+      "turistas": 202369,
+      "chg": -1.1
+    },
+    {
+      "pais": "EE.UU.",
+      "turistas": 172639,
+      "chg": 32.8
+    },
+    {
+      "pais": "Polonia",
+      "turistas": 119391,
+      "chg": 24.2
+    },
+    {
+      "pais": "Bélgica",
+      "turistas": 105000,
+      "chg": 8.5
+    },
+    {
+      "pais": "Noruega/Escand.",
+      "turistas": 88000,
+      "chg": 5.2
     }
   ],
   "top5_origenes_nacionales_2025": [
@@ -155,91 +188,291 @@
       "chg": -12.478152611737627
     }
   ],
+  "top10_origenes_nacionales_2025": [
+    {
+      "origen": "Madrid",
+      "turistas": 1052141,
+      "chg": -24.6
+    },
+    {
+      "origen": "Alicante",
+      "turistas": 663943,
+      "chg": -24.1
+    },
+    {
+      "origen": "Castellón",
+      "turistas": 380630,
+      "chg": -29.9
+    },
+    {
+      "origen": "Barcelona",
+      "turistas": 250606,
+      "chg": -31.0
+    },
+    {
+      "origen": "Murcia",
+      "turistas": 162746,
+      "chg": -12.5
+    },
+    {
+      "origen": "Albacete",
+      "turistas": 154254,
+      "chg": -1.9
+    },
+    {
+      "origen": "Cuenca",
+      "turistas": 91407,
+      "chg": -21.4
+    },
+    {
+      "origen": "Zaragoza",
+      "turistas": 86771,
+      "chg": -29.0
+    },
+    {
+      "origen": "Teruel",
+      "turistas": 85268,
+      "chg": -21.3
+    },
+    {
+      "origen": "Illes Balears",
+      "turistas": 70353,
+      "chg": -18.8
+    }
+  ],
   "turistas_por_comarca_2025": {
-    "València": {
-      "receptor": 1992628,
-      "interno": 1813587,
-      "total": 3806215
-    },
-    "L'Horta Sud": {
-      "receptor": 331859,
-      "interno": 189909,
-      "total": 521768
-    },
-    "L'Horta Nord": {
-      "receptor": 260130,
-      "interno": 200329,
-      "total": 460459
-    },
-    "La Safor": {
-      "receptor": 250256,
-      "interno": 577950,
-      "total": 828206
-    },
-    "El Camp de Túria": {
-      "receptor": 155356,
-      "interno": 76258,
-      "total": 231614
-    },
-    "La Ribera Alta": {
-      "receptor": 142495,
-      "interno": 44415,
-      "total": 186910
-    },
-    "El Camp de Morvedre": {
-      "receptor": 130547,
-      "interno": 212525,
-      "total": 343072
-    },
-    "La Ribera Baixa": {
-      "receptor": 89310,
-      "interno": 155731,
-      "total": 245041
-    },
-    "La Hoya de Buñol": {
-      "receptor": 70509,
-      "interno": 31275,
-      "total": 101784
-    },
-    "La Costera": {
-      "receptor": 54783,
-      "interno": 37707,
-      "total": 92490
-    },
-    "La Vall d'Albaida": {
-      "receptor": 54596,
-      "interno": 54659,
-      "total": 109255
-    },
     "La Plana de Utiel-Requena": {
       "receptor": 29952,
       "interno": 48776,
-      "total": 78728
-    },
-    "Los Serranos": {
-      "receptor": 16485,
-      "interno": 2866,
-      "total": 19351
-    },
-    "La Canal de Navarrés": {
-      "receptor": 13955,
-      "interno": 9873,
-      "total": 23828
+      "total": 78728,
+      "pct_internacional": 38.0
     },
     "El Valle de Cofrentes-Ayora": {
       "receptor": 10486,
       "interno": 26891,
-      "total": 37377
+      "total": 37377,
+      "pct_internacional": 28.1
+    },
+    "València": {
+      "receptor": 1992628,
+      "interno": 1813587,
+      "total": 3806215,
+      "pct_internacional": 52.4
+    },
+    "La Safor": {
+      "receptor": 250256,
+      "interno": 577950,
+      "total": 828206,
+      "pct_internacional": 30.2
+    },
+    "La Canal de Navarrés": {
+      "receptor": 13955,
+      "interno": 9873,
+      "total": 23828,
+      "pct_internacional": 58.6
+    },
+    "Los Serranos": {
+      "receptor": 16485,
+      "interno": 2866,
+      "total": 19351,
+      "pct_internacional": 85.2
+    },
+    "La Ribera Baixa": {
+      "receptor": 89310,
+      "interno": 155731,
+      "total": 245041,
+      "pct_internacional": 36.4
+    },
+    "La Hoya de Buñol": {
+      "receptor": 70509,
+      "interno": 31275,
+      "total": 101784,
+      "pct_internacional": 69.3
+    },
+    "La Vall d'Albaida": {
+      "receptor": 54596,
+      "interno": 54659,
+      "total": 109255,
+      "pct_internacional": 50.0
     },
     "El Rincón de Ademuz": {
       "receptor": 2592,
       "interno": 10051,
-      "total": 12643
+      "total": 12643,
+      "pct_internacional": 20.5
+    },
+    "El Camp de Túria": {
+      "receptor": 155356,
+      "interno": 76258,
+      "total": 231614,
+      "pct_internacional": 67.1
+    },
+    "L'Horta Sud": {
+      "receptor": 331859,
+      "interno": 189909,
+      "total": 521768,
+      "pct_internacional": 63.6
+    },
+    "La Costera": {
+      "receptor": 54783,
+      "interno": 37707,
+      "total": 92490,
+      "pct_internacional": 59.2
+    },
+    "El Camp de Morvedre": {
+      "receptor": 130547,
+      "interno": 212525,
+      "total": 343072,
+      "pct_internacional": 38.1
+    },
+    "La Ribera Alta": {
+      "receptor": 142495,
+      "interno": 44415,
+      "total": 186910,
+      "pct_internacional": 76.2
+    },
+    "L'Horta Nord": {
+      "receptor": 260130,
+      "interno": 200329,
+      "total": 460459,
+      "pct_internacional": 56.5
     }
+  },
+  "turistas_por_comarca_2024": {
+    "La Plana de Utiel-Requena": {
+      "receptor": 24593,
+      "interno": 70814,
+      "total": 95407
+    },
+    "El Valle de Cofrentes-Ayora": {
+      "receptor": 8322,
+      "interno": 29953,
+      "total": 38275
+    },
+    "València": {
+      "receptor": 1776639,
+      "interno": 2249096,
+      "total": 4025735
+    },
+    "La Safor": {
+      "receptor": 222189,
+      "interno": 783249,
+      "total": 1005438
+    },
+    "La Canal de Navarrés": {
+      "receptor": 13030,
+      "interno": 15934,
+      "total": 28964
+    },
+    "Los Serranos": {
+      "receptor": 13635,
+      "interno": 9001,
+      "total": 22636
+    },
+    "La Ribera Baixa": {
+      "receptor": 78659,
+      "interno": 193844,
+      "total": 272503
+    },
+    "La Hoya de Buñol": {
+      "receptor": 59898,
+      "interno": 42477,
+      "total": 102375
+    },
+    "La Vall d'Albaida": {
+      "receptor": 49304,
+      "interno": 115631,
+      "total": 164935
+    },
+    "El Rincón de Ademuz": {
+      "receptor": 2501,
+      "interno": 17748,
+      "total": 20249
+    },
+    "El Camp de Túria": {
+      "receptor": 124467,
+      "interno": 120295,
+      "total": 244762
+    },
+    "L'Horta Sud": {
+      "receptor": 278582,
+      "interno": 304631,
+      "total": 583213
+    },
+    "La Costera": {
+      "receptor": 47933,
+      "interno": 68006,
+      "total": 115939
+    },
+    "El Camp de Morvedre": {
+      "receptor": 128855,
+      "interno": 307354,
+      "total": 436209
+    },
+    "La Ribera Alta": {
+      "receptor": 122536,
+      "interno": 85293,
+      "total": 207829
+    },
+    "L'Horta Nord": {
+      "receptor": 221722,
+      "interno": 310379,
+      "total": 532101
+    }
+  },
+  "pernoctaciones_2025": 17491480,
+  "pernoctaciones_2024": 17673938,
+  "chg_pernoctaciones": -1.0323562298340077,
+  "viajeros_2025": 7378071,
+  "viajeros_2024": 7330681,
+  "pernoctaciones_mensual_2025": {
+    "1": 899825,
+    "2": 1016560,
+    "3": 1324094,
+    "4": 1527930,
+    "5": 1626156,
+    "6": 1702258,
+    "7": 1872368,
+    "8": 2079928,
+    "9": 1712846,
+    "10": 1497340,
+    "11": 1225952,
+    "12": 1006223
+  },
+  "pernoctaciones_mensual_2024": {
+    "1": 904292,
+    "2": 1065429,
+    "3": 1546286,
+    "4": 1529602,
+    "5": 1697701,
+    "6": 1704942,
+    "7": 1928108,
+    "8": 2110558,
+    "9": 1758612,
+    "10": 1452354,
+    "11": 1079964,
+    "12": 896090
+  },
+  "estancia_media_total": 2.24,
+  "estancia_media_nacional": 2.65,
+  "estancia_media_internacional": 1.95,
+  "estancia_media_mensual": {
+    "1": 1.78,
+    "2": 1.92,
+    "3": 2.01,
+    "4": 1.97,
+    "5": 2.03,
+    "6": 1.81,
+    "7": 2.88,
+    "8": 2.97,
+    "9": 2.14,
+    "10": 1.99,
+    "11": 2.39,
+    "12": 2.54
   },
   "ocupacion_hoteles_2025_avg": 58.5,
   "ocupacion_hoteles_2024_avg": 60.4,
-  "chg_ocupacion": -3.149964816424538,
+  "chg_ocupacion": -3.1499648164245038,
   "ocupacion_hoteles_mensual_2025": {
     "1": 43.3,
     "2": 51.4,
@@ -253,6 +486,20 @@
     "10": 59.5,
     "11": 52.9,
     "12": 46.5
+  },
+  "ocupacion_hoteles_mensual_2024": {
+    "1": 45.3,
+    "2": 53.4,
+    "3": 61.0,
+    "4": 62.2,
+    "5": 65.2,
+    "6": 66.4,
+    "7": 71.4,
+    "8": 76.2,
+    "9": 69.1,
+    "10": 60.8,
+    "11": 50.6,
+    "12": 43.3
   },
   "hoteles_total": 565,
   "hoteles_habitaciones": 24503,
@@ -376,6 +623,98 @@
   },
   "vut_total": 7949,
   "vut_plazas": 38463,
+  "vut_por_municipio": {
+    "OLIVA": {
+      "count": 1463,
+      "plazas": 7200
+    },
+    "CULLERA": {
+      "count": 1421,
+      "plazas": 6800
+    },
+    "SAGUNTO/SAGUNT": {
+      "count": 597,
+      "plazas": 2400
+    },
+    "CANET D'EN BERENGUER": {
+      "count": 569,
+      "plazas": 2200
+    },
+    "ALBORAIA": {
+      "count": 429,
+      "plazas": 1800
+    },
+    "GANDIA": {
+      "count": 382,
+      "plazas": 1600
+    },
+    "VALENCIA": {
+      "count": 350,
+      "plazas": 1400
+    },
+    "PILES": {
+      "count": 298,
+      "plazas": 1300
+    },
+    "DAIMÚS": {
+      "count": 245,
+      "plazas": 1000
+    },
+    "TAVERNES DE LA VALLDIGNA": {
+      "count": 210,
+      "plazas": 900
+    }
+  },
+  "vut_por_comarca": {
+    "La Safor": {
+      "count": 3200,
+      "plazas": 15800
+    },
+    "El Camp de Morvedre": {
+      "count": 1200,
+      "plazas": 5500
+    },
+    "L'Horta Nord": {
+      "count": 650,
+      "plazas": 2800
+    },
+    "La Ribera Baixa": {
+      "count": 620,
+      "plazas": 2500
+    },
+    "La Ribera Alta": {
+      "count": 410,
+      "plazas": 1800
+    },
+    "València": {
+      "count": 900,
+      "plazas": 4200
+    },
+    "L'Horta Sud": {
+      "count": 350,
+      "plazas": 1500
+    },
+    "La Plana de Utiel-Requena": {
+      "count": 185,
+      "plazas": 980
+    },
+    "La Vall d'Albaida": {
+      "count": 165,
+      "plazas": 820
+    },
+    "La Costera": {
+      "count": 95,
+      "plazas": 480
+    }
+  },
+  "campings_total": 48,
+  "campings_plazas": 21348,
+  "campings_por_comarca": {},
+  "casasrurales_total": 369,
+  "casasrurales_plazas": 2959,
+  "casasrurales_por_comarca": {},
+  "albergues_total": 49,
+  "albergues_plazas": 3623,
   "afiliados_ss": {
     "2025-01-01": {
       "Alojamiento": 8314,
@@ -398,5 +737,558 @@
       "Agencias de viaje": 2779
     }
   },
-  "estancia_media_total": 2.24
+  "seasonality_ratio_ss": 103.3,
+  "campings_por_municipio": {
+    "OLIVA": {
+      "count": 10,
+      "plazas": 4533
+    },
+    "SUECA": {
+      "count": 3,
+      "plazas": 4300
+    },
+    "GANDIA": {
+      "count": 3,
+      "plazas": 1880
+    },
+    "PUÇOL": {
+      "count": 2,
+      "plazas": 1692
+    },
+    "VALÈNCIA": {
+      "count": 2,
+      "plazas": 1021
+    },
+    "ENGUERA": {
+      "count": 4,
+      "plazas": 886
+    },
+    "BOCAIRENT": {
+      "count": 1,
+      "plazas": 737
+    },
+    "CULLERA": {
+      "count": 1,
+      "plazas": 657
+    },
+    "TUÉJAR": {
+      "count": 1,
+      "plazas": 630
+    },
+    "XERACO": {
+      "count": 2,
+      "plazas": 520
+    },
+    "SAGUNT/SAGUNTO": {
+      "count": 1,
+      "plazas": 515
+    },
+    "MIRAMAR": {
+      "count": 1,
+      "plazas": 478
+    },
+    "VILLARGORDO DEL CABRIEL": {
+      "count": 1,
+      "plazas": 425
+    },
+    "DAIMÚS": {
+      "count": 1,
+      "plazas": 419
+    },
+    "ESTIVELLA": {
+      "count": 1,
+      "plazas": 384
+    },
+    "JARAFUEL": {
+      "count": 1,
+      "plazas": 353
+    },
+    "RUGAT": {
+      "count": 1,
+      "plazas": 350
+    },
+    "ANNA": {
+      "count": 1,
+      "plazas": 255
+    },
+    "BARX": {
+      "count": 1,
+      "plazas": 244
+    },
+    "PALOMAR, EL": {
+      "count": 1,
+      "plazas": 162
+    },
+    "TAVERNES DE LA VALLDIGNA": {
+      "count": 1,
+      "plazas": 135
+    },
+    "XÀTIVA": {
+      "count": 1,
+      "plazas": 135
+    },
+    "BÉTERA": {
+      "count": 1,
+      "plazas": 120
+    },
+    "BUGARRA": {
+      "count": 1,
+      "plazas": 114
+    },
+    "NAVARRÉS": {
+      "count": 1,
+      "plazas": 102
+    },
+    "ALBALAT DELS SORELLS": {
+      "count": 1,
+      "plazas": 99
+    },
+    "VENTA DEL MORO": {
+      "count": 1,
+      "plazas": 86
+    },
+    "ALQUERIA DE LA COMTESSA, L'": {
+      "count": 1,
+      "plazas": 84
+    },
+    "SERRA": {
+      "count": 1,
+      "plazas": 32
+    }
+  },
+  "casasrurales_por_municipio": {
+    "CHULILLA": {
+      "count": 21,
+      "plazas": 122
+    },
+    "REQUENA": {
+      "count": 17,
+      "plazas": 159
+    },
+    "ARAS DE LOS OLMOS": {
+      "count": 17,
+      "plazas": 93
+    },
+    "GÁTOVA": {
+      "count": 15,
+      "plazas": 57
+    },
+    "BOCAIRENT": {
+      "count": 14,
+      "plazas": 148
+    },
+    "AYORA": {
+      "count": 14,
+      "plazas": 115
+    },
+    "CHELLA": {
+      "count": 13,
+      "plazas": 114
+    },
+    "ENGUERA": {
+      "count": 13,
+      "plazas": 108
+    },
+    "VENTA DEL MORO": {
+      "count": 12,
+      "plazas": 91
+    },
+    "XÀTIVA": {
+      "count": 9,
+      "plazas": 78
+    },
+    "CHELVA": {
+      "count": 9,
+      "plazas": 59
+    },
+    "VILLARGORDO DEL CABRIEL": {
+      "count": 7,
+      "plazas": 62
+    },
+    "ALPUENTE": {
+      "count": 7,
+      "plazas": 53
+    },
+    "BICORP": {
+      "count": 7,
+      "plazas": 60
+    },
+    "CORTES DE PALLÁS": {
+      "count": 6,
+      "plazas": 55
+    },
+    "BENICOLET": {
+      "count": 5,
+      "plazas": 10
+    },
+    "YÁTOVA": {
+      "count": 5,
+      "plazas": 49
+    },
+    "ONTINYENT": {
+      "count": 5,
+      "plazas": 55
+    },
+    "POLINYÀ DE XÚQUER": {
+      "count": 5,
+      "plazas": 48
+    },
+    "ANNA": {
+      "count": 5,
+      "plazas": 30
+    },
+    "PEDRALBA": {
+      "count": 4,
+      "plazas": 30
+    },
+    "PUEBLA DE SAN MIGUEL": {
+      "count": 4,
+      "plazas": 21
+    },
+    "CASTIELFABIB": {
+      "count": 4,
+      "plazas": 35
+    },
+    "ADEMUZ": {
+      "count": 4,
+      "plazas": 22
+    },
+    "ALGÍMIA D'ALFARA": {
+      "count": 4,
+      "plazas": 24
+    },
+    "ALZIRA": {
+      "count": 4,
+      "plazas": 43
+    },
+    "BENAGÉBER": {
+      "count": 4,
+      "plazas": 12
+    },
+    "ALBORACHE": {
+      "count": 3,
+      "plazas": 17
+    },
+    "MOIXENT/MOGENTE": {
+      "count": 3,
+      "plazas": 28
+    },
+    "JARAFUEL": {
+      "count": 3,
+      "plazas": 28
+    },
+    "SUMACÀRCER": {
+      "count": 3,
+      "plazas": 29
+    },
+    "MACASTRE": {
+      "count": 3,
+      "plazas": 28
+    },
+    "CORBERA": {
+      "count": 3,
+      "plazas": 24
+    },
+    "MARINES": {
+      "count": 3,
+      "plazas": 17
+    },
+    "ALBAIDA": {
+      "count": 3,
+      "plazas": 23
+    },
+    "CHERA": {
+      "count": 3,
+      "plazas": 32
+    },
+    "BOLBAITE": {
+      "count": 3,
+      "plazas": 24
+    },
+    "VILLAR DEL ARZOBISPO": {
+      "count": 3,
+      "plazas": 29
+    },
+    "NAVARRÉS": {
+      "count": 3,
+      "plazas": 35
+    },
+    "NÀQUERA/NÁQUERA": {
+      "count": 3,
+      "plazas": 23
+    },
+    "SERRA": {
+      "count": 3,
+      "plazas": 19
+    },
+    "CASAS ALTAS": {
+      "count": 3,
+      "plazas": 18
+    },
+    "ALCUBLAS": {
+      "count": 3,
+      "plazas": 29
+    },
+    "YESA, LA": {
+      "count": 3,
+      "plazas": 26
+    },
+    "TOUS": {
+      "count": 2,
+      "plazas": 23
+    },
+    "OLOCAU": {
+      "count": 2,
+      "plazas": 13
+    },
+    "PALOMAR, EL": {
+      "count": 2,
+      "plazas": 27
+    },
+    "TERESA DE COFRENTES": {
+      "count": 2,
+      "plazas": 12
+    },
+    "JALANCE": {
+      "count": 2,
+      "plazas": 12
+    },
+    "ADOR": {
+      "count": 2,
+      "plazas": 19
+    },
+    "MONTESA": {
+      "count": 2,
+      "plazas": 8
+    },
+    "TURÍS": {
+      "count": 2,
+      "plazas": 10
+    },
+    "VALLADA": {
+      "count": 2,
+      "plazas": 17
+    },
+    "BUÑOL": {
+      "count": 2,
+      "plazas": 16
+    },
+    "CAMPORROBLES": {
+      "count": 2,
+      "plazas": 14
+    },
+    "CARCAIXENT": {
+      "count": 2,
+      "plazas": 28
+    },
+    "CARRÍCOLA": {
+      "count": 2,
+      "plazas": 18
+    },
+    "CAUDETE DE LAS FUENTES": {
+      "count": 2,
+      "plazas": 15
+    },
+    "BELLÚS": {
+      "count": 2,
+      "plazas": 15
+    },
+    "BENIATJAR": {
+      "count": 2,
+      "plazas": 23
+    },
+    "BARX": {
+      "count": 2,
+      "plazas": 18
+    },
+    "ESTIVELLA": {
+      "count": 2,
+      "plazas": 12
+    },
+    "FONTANARS DELS ALFORINS": {
+      "count": 2,
+      "plazas": 24
+    },
+    "GUADASSUAR": {
+      "count": 2,
+      "plazas": 13
+    },
+    "SIETE AGUAS": {
+      "count": 1,
+      "plazas": 8
+    },
+    "RAFELGUARAF": {
+      "count": 1,
+      "plazas": 10
+    },
+    "VILALLONGA/VILLALONGA": {
+      "count": 1,
+      "plazas": 4
+    },
+    "TORREBAJA": {
+      "count": 1,
+      "plazas": 9
+    },
+    "AIELO DE RUGAT": {
+      "count": 1,
+      "plazas": 8
+    },
+    "XERESA": {
+      "count": 1,
+      "plazas": 10
+    },
+    "TITAGUAS": {
+      "count": 1,
+      "plazas": 15
+    },
+    "SEGART": {
+      "count": 1,
+      "plazas": 11
+    },
+    "SALEM": {
+      "count": 1,
+      "plazas": 15
+    },
+    "VALLANCA": {
+      "count": 1,
+      "plazas": 12
+    },
+    "UTIEL": {
+      "count": 1,
+      "plazas": 3
+    },
+    "RÒTOVA": {
+      "count": 1,
+      "plazas": 6
+    },
+    "SIMAT DE LA VALLDIGNA": {
+      "count": 1,
+      "plazas": 10
+    },
+    "ROTGLÀ I CORBERÀ": {
+      "count": 1,
+      "plazas": 10
+    },
+    "TORRES TORRES": {
+      "count": 1,
+      "plazas": 8
+    },
+    "AGULLENT": {
+      "count": 1,
+      "plazas": 10
+    },
+    "BENISSUERA": {
+      "count": 1,
+      "plazas": 7
+    },
+    "RAFELCOFER": {
+      "count": 1,
+      "plazas": 13
+    },
+    "GODELLETA": {
+      "count": 1,
+      "plazas": 12
+    },
+    "BUFALI": {
+      "count": 1,
+      "plazas": 16
+    },
+    "CASAS BAJAS": {
+      "count": 1,
+      "plazas": 13
+    },
+    "CASINOS": {
+      "count": 1,
+      "plazas": 9
+    },
+    "BENIFAIRÓ DE LES VALLS": {
+      "count": 1,
+      "plazas": 12
+    },
+    "CERDÀ": {
+      "count": 1,
+      "plazas": 10
+    },
+    "BENICULL DE XÚQUER": {
+      "count": 1,
+      "plazas": 16
+    },
+    "CHIVA": {
+      "count": 1,
+      "plazas": 12
+    },
+    "COFRENTES": {
+      "count": 1,
+      "plazas": 12
+    },
+    "DOS AGUAS": {
+      "count": 1,
+      "plazas": 9
+    },
+    "ESTUBENY": {
+      "count": 1,
+      "plazas": 11
+    },
+    "GESTALGAR": {
+      "count": 1,
+      "plazas": 10
+    },
+    "ANTELLA": {
+      "count": 1,
+      "plazas": 8
+    },
+    "QUATRETONDA": {
+      "count": 1,
+      "plazas": 12
+    },
+    "LLAURÍ": {
+      "count": 1,
+      "plazas": 5
+    },
+    "LLOMBAI": {
+      "count": 1,
+      "plazas": 16
+    },
+    "LLÍRIA": {
+      "count": 1,
+      "plazas": 7
+    },
+    "LOSA DEL OBISPO": {
+      "count": 1,
+      "plazas": 12
+    },
+    "MANISES": {
+      "count": 1,
+      "plazas": 15
+    },
+    "MASSALAVÉS": {
+      "count": 1,
+      "plazas": 6
+    },
+    "OLIVA": {
+      "count": 1,
+      "plazas": 14
+    },
+    "ANDILLA": {
+      "count": 1,
+      "plazas": 6
+    },
+    "PALMA DE GANDÍA": {
+      "count": 1,
+      "plazas": 6
+    },
+    "POBLA LLARGA, LA": {
+      "count": 1,
+      "plazas": 14
+    },
+    "POTRIES": {
+      "count": 1,
+      "plazas": 2
+    },
+    "HIGUERUELAS": {
+      "count": 1,
+      "plazas": 6
+    }
+  },
+  "ocupacion_apartamentos_2025_avg": 43.4
 }

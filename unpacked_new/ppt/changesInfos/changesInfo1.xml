@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pc:chgInfo xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:ac="http://schemas.microsoft.com/office/drawing/2013/main/command" xmlns:pc="http://schemas.microsoft.com/office/powerpoint/2013/main/command">
+  <pc:docChgLst>
+    <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}"/>
+    <pc:docChg chg="custSel delSld modSld">
+      <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:28.633" v="32" actId="20577"/>
+      <pc:docMkLst>
+        <pc:docMk/>
+      </pc:docMkLst>
+      <pc:sldChg chg="modSp mod">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:28.633" v="32" actId="20577"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="800913457" sldId="256"/>
+        </pc:sldMkLst>
+        <pc:spChg chg="mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:28.633" v="32" actId="20577"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="800913457" sldId="256"/>
+            <ac:spMk id="15" creationId="{B8E12F29-AEFF-1648-82DB-A98A3FE6A988}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+      </pc:sldChg>
+      <pc:sldChg chg="modSp mod">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:03.369" v="29"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2119977243" sldId="271"/>
+        </pc:sldMkLst>
+        <pc:spChg chg="mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:57.894" v="26" actId="20577"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="2119977243" sldId="271"/>
+            <ac:spMk id="10" creationId="{E5585DDF-1162-364C-93D6-09AB71A7B6BE}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+        <pc:spChg chg="mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:03.369" v="29"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="2119977243" sldId="271"/>
+            <ac:spMk id="11" creationId="{0B5F7BD0-6DBF-5447-8B94-BC6D8E119919}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="892734568" sldId="272"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="3094545759" sldId="273"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="942651061" sldId="276"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2142191861" sldId="278"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="1794738533" sldId="282"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="634277675" sldId="283"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="1022500339" sldId="286"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="108231340" sldId="288"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="3390521575" sldId="289"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2642786589" sldId="296"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2089034034" sldId="298"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2641551217" sldId="299"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="289521520" sldId="300"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="1709473529" sldId="302"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="693038405" sldId="304"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:34:19.977" v="30" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="42374455" sldId="305"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="addSp delSp modSp mod">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:01.207" v="10" actId="20577"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="206667791" sldId="306"/>
+        </pc:sldMkLst>
+        <pc:spChg chg="add del mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:32:54.341" v="1" actId="478"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="206667791" sldId="306"/>
+            <ac:spMk id="2" creationId="{20B23717-D6C5-9BB7-1F89-0A1B436A610C}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+        <pc:spChg chg="add mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:01.207" v="10" actId="20577"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="206667791" sldId="306"/>
+            <ac:spMk id="3" creationId="{A9DB14CB-C47F-34CC-BE48-2C3A5CC95EBD}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+        <pc:spChg chg="del">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:32:57.270" v="2" actId="478"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="206667791" sldId="306"/>
+            <ac:spMk id="12" creationId="{51C9942B-0A87-DD42-BC8A-4FE73ECEC448}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:12.972" v="11" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="2554342447" sldId="307"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="modSp mod">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:29.184" v="19" actId="20577"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="3955974490" sldId="308"/>
+        </pc:sldMkLst>
+        <pc:spChg chg="mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:29.184" v="19" actId="20577"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="3955974490" sldId="308"/>
+            <ac:spMk id="12" creationId="{51C9942B-0A87-DD42-BC8A-4FE73ECEC448}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+      </pc:sldChg>
+      <pc:sldChg chg="modSp mod">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:41.351" v="23"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="4162713853" sldId="309"/>
+        </pc:sldMkLst>
+        <pc:spChg chg="mod">
+          <ac:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:41.351" v="23"/>
+          <ac:spMkLst>
+            <pc:docMk/>
+            <pc:sldMk cId="4162713853" sldId="309"/>
+            <ac:spMk id="12" creationId="{51C9942B-0A87-DD42-BC8A-4FE73ECEC448}"/>
+          </ac:spMkLst>
+        </pc:spChg>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:49.591" v="24" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="3703214421" sldId="310"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:49.591" v="24" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="3667758382" sldId="311"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+      <pc:sldChg chg="del">
+        <pc:chgData name="Pere Lloret" userId="7910d177-ec33-4b32-99c4-b326d77bd835" providerId="ADAL" clId="{74AC9018-D152-48B8-8D96-46F61B528486}" dt="2026-02-26T19:33:49.591" v="24" actId="2696"/>
+        <pc:sldMkLst>
+          <pc:docMk/>
+          <pc:sldMk cId="4096904241" sldId="312"/>
+        </pc:sldMkLst>
+      </pc:sldChg>
+    </pc:docChg>
+  </pc:docChgLst>
+</pc:chgInfo>
