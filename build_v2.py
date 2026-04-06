@@ -478,7 +478,35 @@ tb(s, f"{cp_names[0]} és la comarca amb major internacionalització ({fmt(cp_va
    Cm(16.3), Cm(2.5), Cm(6.0), Cm(6.5), sz=9.5, color=DGRAY, wrap=True)
 footer(s)
 
-print("S15: Conclusions afluència")
+print("S15: Variació per comarques 2024 vs 2025")
+s = prs.slides.add_slide(blank)
+add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
+header(s, "01", "Afluència turística", "Variació de turistes per comarca: 2024 vs 2025 (%)")
+comarca_d24 = M['turistas_por_comarca_2024']
+com_var = []
+for c, v25 in comarca_d.items():
+    if c in comarca_d24 and comarca_d24[c]['total'] > 0:
+        pct = (v25['total'] / comarca_d24[c]['total'] - 1) * 100
+        com_var.append((c[:22], round(pct, 1)))
+com_var.sort(key=lambda x: x[1], reverse=True)
+cv_names = [x[0] for x in com_var]
+cv_vals  = [x[1] for x in com_var]
+ch = chart_add(s, XL_CHART_TYPE.BAR_CLUSTERED, cv_names, [('Var. % 2024→2025', cv_vals)],
+               Cm(0.5), Cm(2.3), Cm(16.0), Cm(11.0), legend=False)
+ch.series[0].format.fill.fore_color.rgb = TEAL
+resilients = [x for x in com_var if x[1] > -5]
+tb(s, f"Totes les comarques registren variació negativa en 2025 respecte a 2024, "
+      f"degut a la correcció del turisme nacional (-26%). "
+      f"{com_var[0][0]} ({fmtp(com_var[0][1])}) és la comarca més resilient, "
+      f"gràcies al seu elevat pes del turisme internacional ({comarca_d.get(com_var[0][0],{}).get('pct_internacional',0):.0f}% internac.). "
+      f"Les comarques interiors com {com_var[-1][0]} ({fmtp(com_var[-1][1])}) "
+      f"i {com_var[-2][0]} ({fmtp(com_var[-2][1])}) mostren les majors caigudes, "
+      f"reflex de la seua dependència del turisme domèstic. "
+      f"El paral·lelisme és clar: les comarques amb major internacionalització aguanten millor.",
+   Cm(16.8), Cm(2.5), Cm(5.7), Cm(9.0), sz=9.5, color=DGRAY, wrap=True)
+footer(s)
+
+print("S16: Conclusions afluència")
 s = prs.slides.add_slide(blank)
 conclusions_slide(s, "01  AFLUÈNCIA TURÍSTICA", [
     ("Rècord históric de turisme internacional",
@@ -493,9 +521,10 @@ conclusions_slide(s, "01  AFLUÈNCIA TURÍSTICA", [
     ("Comarca de València centralitza l'afluència",
      f"Concentra el {fmt(comarca_sorted[0][1]['total']/M['total_turistas_2025']*100,1)}% del total provincial, "
      f"seguida de La Safor ({fmt(comarca_sorted[1][1]['total'])}) com a principal destí costaner."),
-    ("Menor estacionalitat gràcies al turisme internacional",
-     f"El flux internacional es distribueix millor al llarg de l'any, "
-     f"amb octubre assolint {fmt(rec_m25[9])} turistes internacionals."),
+    ("Comarques amb major internacionalització, més resilients",
+     f"La variació per comarca 2024→2025 mostra que les comarques amb elevat pes internacional "
+     f"(La Hoya de Buñol 69%, La Ribera Alta 76%, Los Serranos 85%) aguanten millor la caiguda, "
+     f"mentre que les comarques interiors depenents del turisme domèstic retrocedeixen més."),
 ])
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -586,7 +615,37 @@ tb(s, f"L'estada total és de {M['estancia_media_total']:.2f} nits. "
    Cm(12.8), H-Cm(1.6), Cm(9.7), Cm(1.3), sz=9, color=DGRAY, wrap=True)
 footer(s)
 
-print("S21: Conclusions ocupació")
+print("S21: Índex d'estacionalitat mensual")
+s = prs.slides.add_slide(blank)
+add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
+header(s, "02", "Ocupació", "Índex d'estacionalitat mensual 2025 (anual = 100)")
+avg_rec  = sum(rec_m25) / 12
+avg_int  = sum(int_m25) / 12
+avg_poc  = sum(p25) / 12
+idx_rec  = [round(v / avg_rec  * 100, 1) for v in rec_m25]
+idx_int  = [round(v / avg_int  * 100, 1) for v in int_m25]
+idx_poc  = [round(v / avg_poc  * 100, 1) for v in p25]
+ch = line_chart(s, MESOS,
+                [('Turisme internacional', idx_rec),
+                 ('Turisme nacional',      idx_int),
+                 ('Pernoctacions',         idx_poc)],
+                Cm(0.5), Cm(2.3), Cm(15.5), Cm(10.8))
+ch.series[0].format.line.color.rgb = TEAL
+ch.series[1].format.line.color.rgb = CYAN
+ch.series[2].format.line.color.rgb = GREEN
+min_rec_m = MESOS[idx_rec.index(min(idx_rec))]
+max_rec_m = MESOS[idx_rec.index(max(idx_rec))]
+tb(s, f"L'índex posa de manifest l'estacionalitat diferencial entre segments. "
+      f"El turisme internacional presenta el mínim al {min_rec_m} (índex {min(idx_rec):.0f}) "
+      f"i el màxim a l'{max_rec_m} ({max(idx_rec):.0f}). "
+      f"El turisme nacional té un perfil més pla però amb pic estiuenc acusat. "
+      f"L'amplitud de la corba internacional ({max(idx_rec)-min(idx_rec):.0f} punts) "
+      f"és inferior a la nacional ({max(idx_int)-min(idx_int):.0f} punts), "
+      f"indicant que el turisme estranger distribueix millor al llarg de l'any.",
+   Cm(16.3), Cm(2.5), Cm(6.0), Cm(7.0), sz=9.5, color=DGRAY, wrap=True)
+footer(s)
+
+print("S22: Conclusions ocupació")
 s = prs.slides.add_slide(blank)
 conclusions_slide(s, "02  OCUPACIÓ", [
     ("Pernoctacions estables al voltant dels 17,5 milions",
@@ -709,13 +768,35 @@ ch = chart_add(s, XL_CHART_TYPE.BAR_CLUSTERED, vc_names, [('VUT per comarca', vc
 ch.series[0].format.fill.fore_color.rgb = CYAN
 tb(s, f"La Safor lidera amb {fmt(vut_com[0][1]['count'])} VUT registrades "
       f"({fmt(vut_com[0][1]['plazas'])} places), seguida de la comarca de València "
-      f"({fmt(vut_com[5][1]['count'])} VUT) i El Camp de Morvedre. "
+      f"({fmt(vut_com[2][1]['count'])} VUT) i El Camp de Morvedre ({fmt(vut_com[1][1]['count'])} VUT). "
       f"Aquesta distribució contrasta amb la planta hotelera, concentrada a la capital, "
       f"evidenciant que les VUT cobreixen la demanda residencial del litoral.",
    Cm(16.3), Cm(2.5), Cm(6.0), Cm(6.0), sz=9.5, color=DGRAY, wrap=True)
 footer(s)
 
-print("S28: Càmpings i cases rurals")
+print("S28: Cases rurals per municipis")
+s = prs.slides.add_slide(blank)
+add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
+header(s, "03", "Oferta turística", "Cases rurals i turisme d'interior — Top 15 municipis")
+top15r = rural_mun[:15]
+rr_names = [m[0].title()[:18] for m in top15r]
+rr_count = [m[1]['count'] for m in top15r]
+rr_plaz  = [m[1]['plazas'] for m in top15r]
+ch = chart_add(s, XL_CHART_TYPE.BAR_CLUSTERED, rr_names,
+               [('Establiments', rr_count), ('Places', rr_plaz)],
+               Cm(0.5), Cm(2.3), Cm(15.5), Cm(11.0), legend=True, lpos='bottom')
+ch.series[0].format.fill.fore_color.rgb = TEAL
+ch.series[1].format.fill.fore_color.rgb = GREEN
+top3 = ', '.join(f"{m[0].title()} ({m[1]['count']})" for m in top15r[:3])
+tb(s, f"Les cases rurals ({M['casasrurales_total']} establ., {fmt(M['casasrurales_plazas'])} places) "
+      f"se concentren a l'interior provincial. {top3} encapçalen el rànquing. "
+      f"Zones com Los Serranos, la Canal de Navarrés i la Vall d'Albaida "
+      f"agrupen la major part de l'oferta rural, reforçant la diferenciació del turisme "
+      f"de natura, gastronomia i turisme actiu respecte al litoral.",
+   Cm(16.3), Cm(2.5), Cm(6.0), Cm(7.0), sz=9.5, color=DGRAY, wrap=True)
+footer(s)
+
+print("S29: Càmpings i cases rurals")
 s = prs.slides.add_slide(blank)
 add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
 header(s, "03", "Oferta turística", "Càmpings i cases rurals — distribució territorial")
@@ -754,21 +835,29 @@ tb_lines(s, [
 ],  Cm(11.5), Cm(2.5), Cm(11.0), Cm(11.0), color=DGRAY)
 footer(s)
 
-print("S29: Distribució places per tipus")
+print("S31: Distribució places per tipus")
 s = prs.slides.add_slide(blank)
 add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
 header(s, "03", "Oferta turística", "Distribució de places per tipus d'allotjament")
 tipos     = ['Hotels','VUT','Càmpings','Cases rurals','Albergs']
 tipo_vals = [M['hoteles_plazas'], M['vut_plazas'], M['campings_plazas'],
              M['casasrurales_plazas'], M['albergues_plazas']]
-ch = chart_add(s, XL_CHART_TYPE.COLUMN_CLUSTERED, tipos,
-               [('Places', tipo_vals)],
-               Cm(1.0), Cm(2.5), Cm(14.0), Cm(11.0), legend=False)
-ch.series[0].format.fill.fore_color.rgb = TEAL
-rows = [f"{t}: {fmt(v)} places ({fmt(v/sum(tipo_vals)*100,1)}%)"
-        for t,v in zip(tipos, tipo_vals)]
-tb_lines(s, [(f"Total: {fmt(sum(tipo_vals))} places", True, 14)] + [(r, False, 11) for r in rows],
-         Cm(15.5), Cm(3.0), Cm(7.0), Cm(8.0), color=DGRAY)
+cd = ChartData()
+cd.categories = tipos
+cd.add_series('Places', tipo_vals)
+cf = s.shapes.add_chart(XL_CHART_TYPE.DOUGHNUT, Cm(0.5), Cm(2.2), Cm(14.5), Cm(11.2), cd)
+ch_d = cf.chart
+ch_d.has_legend = True
+from pptx.enum.chart import XL_LEGEND_POSITION as LP
+ch_d.legend.position = LP.BOTTOM; ch_d.legend.include_in_layout = False
+pal_d = [TEAL, CYAN, GREEN, ORANGE, MGRAY]
+for i, pt in enumerate(ch_d.series[0].points):
+    pt.format.fill.solid()
+    pt.format.fill.fore_color.rgb = pal_d[i % len(pal_d)]
+rows = [f"{t}: {fmt(v)} ({fmt(v/sum(tipo_vals)*100,1)}%)" for t,v in zip(tipos, tipo_vals)]
+tb_lines(s, [(f"Total: {fmt(sum(tipo_vals))} places reglades", True, 14)] +
+            [(r, False, 11) for r in rows],
+         Cm(15.3), Cm(2.8), Cm(7.2), Cm(9.0), color=DGRAY)
 footer(s)
 
 print("S30: Conclusions oferta")
@@ -838,7 +927,29 @@ tb(s, f"La restauració és el principal ocupador ({fmt(max(rest_v))} afiliats e
    Cm(16.3), Cm(2.5), Cm(6.0), Cm(6.5), sz=9.5, color=DGRAY, wrap=True)
 footer(s)
 
-print("S34: Estacionalitat empleo")
+print("S34: Composició sectorial de l'empleo turístic")
+s = prs.slides.add_slide(blank)
+add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
+header(s, "04", "Treball turístic", "Composició sectorial de l'afiliació turística per trimestre")
+ch = chart_add(s, XL_CHART_TYPE.COLUMN_STACKED, quarters,
+               [('Allotjament', aloj_v), ('Restauració', rest_v), ('Agències viatge', agenc_v)],
+               Cm(0.5), Cm(2.3), Cm(15.5), Cm(10.8), legend=True, lpos='bottom')
+ch.series[0].format.fill.fore_color.rgb = TEAL
+ch.series[1].format.fill.fore_color.rgb = CYAN
+ch.series[2].format.fill.fore_color.rgb = GREEN
+total_emp = [a+r+ag for a,r,ag in zip(aloj_v, rest_v, agenc_v)]
+pct_rest_q3 = rest_v[2] / total_emp[2] * 100
+pct_aloj_q3 = aloj_v[2] / total_emp[2] * 100
+tb(s, f"La restauració domina l'estructura d'afiliació turística al llarg de l'any, "
+      f"representant el {pct_rest_q3:.0f}% del total en el pic de Q3 ({fmt(rest_v[2])} afiliats). "
+      f"L'allotjament, amb el {pct_aloj_q3:.0f}% en Q3, és el segment de major elasticitat estacional. "
+      f"Les agències de viatge ({fmt(agenc_v[0])}–{fmt(max(agenc_v))}) mantenen una "
+      f"composició estable i amb baixa variació estacional al voltant del "
+      f"{fmt(agenc_v[0]/total_emp[0]*100,1)}% del total.",
+   Cm(16.3), Cm(2.5), Cm(6.0), Cm(7.0), sz=9.5, color=DGRAY, wrap=True)
+footer(s)
+
+print("S35: Estacionalitat empleo")
 s = prs.slides.add_slide(blank)
 add_rect(s, Cm(0), Cm(0), W, H, fill=WHITE)
 header(s, "04", "Treball turístic", "Estacionalitat de l'ocupació — Índex trimestral (Q1 = 100)")
